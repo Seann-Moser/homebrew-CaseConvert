@@ -1,8 +1,8 @@
 class Caseconvert < Formula
   desc "CaseConvert is a tool to convert strings between different cases"
   homepage "https://github.com/Seann-Moser/CaseConvert"
-  url "https://github.com/Seann-Moser/CaseConvert/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "aac58067004942d71b9503ffe3638a370ef74e641c8f8d0cade56dab9b8e5050"
+  url "https://github.com/Seann-Moser/CaseConvert/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "abaafd92a5853f50ddc3e4018f6b5160eebc661df7f1eabc1276ff26649b6c7e"
   license "MIT"
 
   depends_on "go" => :build
