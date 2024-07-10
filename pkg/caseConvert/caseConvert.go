@@ -27,7 +27,7 @@ var CaseTypeList = []string{
 func Convert(data string, c CaseType) (string, error) {
 	rules := []string{"?", "", "#", ""}
 
-	str := stringy.New(data)
+	str := stringy.New(strings.ToLower(data))
 	switch c {
 	case SnakeCase:
 		return str.SnakeCase(rules...).Get(), nil
