@@ -10,13 +10,17 @@ class CaseConvert < Formula
   on_macos do
     on_intel do
       def install
-        system "go", "build", *std_go_args(output: bin/"cc")
+          system "go", "mod", "tidy"
+          system "go", "mod", "vendor"
+          system "go", "build", *std_go_args(output: bin/"cc")
       end
     end
 
     on_arm do
       def install
-        system "go", "build", *std_go_args(output: bin/"cc")
+          system "go", "mod", "tidy"
+          system "go", "mod", "vendor"
+          system "go", "build", *std_go_args(output: bin/"cc")
       end
     end
   end
@@ -24,13 +28,17 @@ class CaseConvert < Formula
   on_linux do
     on_intel do
       def install
-        system "go", "build", *std_go_args(output: bin/"cc")
+          system "go", "mod", "tidy"
+          system "go", "mod", "vendor"
+          system "go", "build", *std_go_args(output: bin/"cc")
       end
     end
 
     on_arm do
       def install
-        system "go", "build", *std_go_args(output: bin/"cc")
+          system "go", "mod", "tidy"
+          system "go", "mod", "vendor"
+          system "go", "build", *std_go_args(output: bin/"cc")
       end
     end
   end
