@@ -1,9 +1,20 @@
 ## Install
 ```bash
+brew install caseconvert
+```
+
+```bash
 git clone git@github.com:Seann-Moser/CaseConvert.git
 cd CaseConvert 
 go mod vendor
 go install
+```
+
+### Example
+#### FZF
+```bash
+./caseconvert conv -h | fzf | awk '{print $2}' | casec conv
+
 ```
 
 
