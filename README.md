@@ -1,5 +1,6 @@
 ## Install
 ```bash
+brew tap Seann-Moser/CaseConvert
 brew install caseconvert
 ```
 
