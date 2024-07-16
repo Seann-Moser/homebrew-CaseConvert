@@ -2,7 +2,7 @@ class Caseconvert < Formula
   desc "Tool to convert strings between different cases"
   homepage "https://github.com/Seann-Moser/CaseConvert"
   url "https://github.com/Seann-Moser/CaseConvert/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "dca98d1c7a260326404f59e48732344d9bf3811ee8385017c438f50f406fd17b"
+  sha256 "230bd09e857d4c417a821bfb9ac7312f65165c8c2a889ba626237dbc9009a097"
   license "MIT"
 
   depends_on "go" => :build
